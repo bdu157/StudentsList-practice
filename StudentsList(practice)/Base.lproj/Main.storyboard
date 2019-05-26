@@ -21,7 +21,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mU5-Gj-LOQ">
                                 <rect key="frame" x="0.0" y="139" width="375" height="639"/>
                                 <connections>
-                                    <segue destination="Wiu-kw-CKs" kind="embed" id="iZK-Up-ZF5"/>
+                                    <segue destination="Wiu-kw-CKs" kind="embed" identifier="StudentListEmbedSegue" id="iZK-Up-ZF5"/>
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uyo-7e-bbF">

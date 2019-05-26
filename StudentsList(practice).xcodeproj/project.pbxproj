@@ -63,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				0B790571229B1671002B7743 /* Main.storyboard */,
-				0B790581229B35CC002B7743 /* MainViewController.swift */,
 				0B790583229B35F2002B7743 /* StudentListTableViewController.swift */,
+				0B790581229B35CC002B7743 /* MainViewController.swift */,
 				0B790586229B381E002B7743 /* Student.swift */,
 				0B790588229B382A002B7743 /* StudentController.swift */,
 				0B790585229B363A002B7743 /* Resources */,
