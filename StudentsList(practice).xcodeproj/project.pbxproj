@@ -14,6 +14,8 @@
 		0B790580229B1826002B7743 /* students.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B79057F229B1826002B7743 /* students.json */; };
 		0B790582229B35CC002B7743 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B790581229B35CC002B7743 /* MainViewController.swift */; };
 		0B790584229B35F2002B7743 /* StudentListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B790583229B35F2002B7743 /* StudentListTableViewController.swift */; };
+		0B790587229B381E002B7743 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B790586229B381E002B7743 /* Student.swift */; };
+		0B790589229B382A002B7743 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B790588229B382A002B7743 /* StudentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0B79057F229B1826002B7743 /* students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = students.json; sourceTree = "<group>"; };
 		0B790581229B35CC002B7743 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0B790583229B35F2002B7743 /* StudentListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListTableViewController.swift; sourceTree = "<group>"; };
+		0B790586229B381E002B7743 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0B790588229B382A002B7743 /* StudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				0B790571229B1671002B7743 /* Main.storyboard */,
 				0B790581229B35CC002B7743 /* MainViewController.swift */,
 				0B790583229B35F2002B7743 /* StudentListTableViewController.swift */,
+				0B790586229B381E002B7743 /* Student.swift */,
+				0B790588229B382A002B7743 /* StudentController.swift */,
 				0B790585229B363A002B7743 /* Resources */,
 			);
 			path = "StudentsList(practice)";
@@ -150,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B790589229B382A002B7743 /* StudentController.swift in Sources */,
 				0B790584229B35F2002B7743 /* StudentListTableViewController.swift in Sources */,
 				0B79056E229B1671002B7743 /* AppDelegate.swift in Sources */,
 				0B790582229B35CC002B7743 /* MainViewController.swift in Sources */,
+				0B790587229B381E002B7743 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
